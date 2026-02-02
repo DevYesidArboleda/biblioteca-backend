@@ -1,3 +1,4 @@
+const { specs, swaggerUi } = require('./config/swagger');
 require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
@@ -23,6 +24,8 @@ app.use(cors({
 app.use(express.json());
 app.use(cookieParser()); 
 app.use(requestLogger);
+
+app.use("/api-docs",swaggerUi.serve, swaggerUi.setup(specs))
 
 app.use('/uploads', express.static(path.join(__dirname, '../uploads')));
 
@@ -59,4 +62,5 @@ app.listen(PORT, () => {
   logger.info(`🚀 Servidor corriendo en puerto ${PORT}`);
   logger.info(`📚 API disponible en http://localhost:${PORT}/api`);
   logger.info(`🖼️  Imágenes en http://localhost:${PORT}/uploads/images/`);
+  logger.info(`📖 Documentación Swagger en http://localhost:${PORT}/api-docs`);
 });
