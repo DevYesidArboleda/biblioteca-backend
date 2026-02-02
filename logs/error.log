@@ -1,0 +1,14 @@
+{"error":"User validation failed: password: Path `password` (`12345`, length 5) is shorter than the minimum allowed length (6).","level":"error","message":"Error en registro de usuario","service":"book-management-api","timestamp":"2026-01-31 14:51:30"}
+{"error":"next is not a function","level":"error","message":"Error en registro de usuario","service":"book-management-api","timestamp":"2026-01-31 14:52:02"}
+{"error":"next is not a function","level":"error","message":"Error en registro de usuario","service":"book-management-api","timestamp":"2026-01-31 14:53:49"}
+{"error":"res is not defined","level":"error","message":"Error en login","service":"book-management-api","timestamp":"2026-01-31 17:33:45"}
+{"error":"next is not a function","level":"error","message":"Error en registro de usuario","service":"book-management-api","timestamp":"2026-01-31 17:37:47"}
+{"error":"E11000 duplicate key error collection: book_management.users index: email_1 dup key: { email: null }","level":"error","message":"Error en registro de usuario","service":"book-management-api","timestamp":"2026-01-31 17:58:45"}
+{"error":"E11000 duplicate key error collection: book_management.users index: email_1 dup key: { email: null }","level":"error","message":"Error en registro de usuario","service":"book-management-api","timestamp":"2026-01-31 17:59:08"}
+{"error":"next is not a function","level":"error","message":"Error al crear libro","service":"book-management-api","timestamp":"2026-01-31 18:03:03"}
+{"error":"E11000 duplicate key error collection: book_management.books index: isbn_1 dup key: { isbn: \"\" }","level":"error","message":"Error al crear libro","service":"book-management-api","timestamp":"2026-01-31 18:06:25"}
+{"error":"E11000 duplicate key error collection: book_management.books index: isbn_1 dup key: { isbn: \"\" }","level":"error","message":"Error al crear libro","service":"book-management-api","timestamp":"2026-01-31 18:06:30"}
+{"error":"E11000 duplicate key error collection: book_management.books index: isbn_1 dup key: { isbn: \"\" }","level":"error","message":"Error al crear libro","service":"book-management-api","timestamp":"2026-01-31 18:07:03"}
+{"error":"User validation failed: password: Path `password` (`admin`, length 5) is shorter than the minimum allowed length (6).","level":"error","message":"Error en registro de usuario","service":"book-management-api","timestamp":"2026-01-31 18:10:29"}
+{"error":"E11000 duplicate key error collection: book_management.users index: email_1 dup key: { email: null }","level":"error","message":"Error en registro de usuario","service":"book-management-api","timestamp":"2026-01-31 18:10:52"}
+{"error":"E11000 duplicate key error collection: book_management.users index: email_1 dup key: { email: null }","level":"error","message":"Error en registro de usuario","service":"book-management-api","timestamp":"2026-01-31 18:11:27"}
